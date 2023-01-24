@@ -33,9 +33,13 @@
 
 .container {
     width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
-.content{
+
+.content {
     text-align: center;
 }
 
@@ -52,74 +56,62 @@
     float: left;
 }
 
-.right-menu{
+.right-menu {
     width: 80%;
     height: 400px;
     background: coral;
     float: left;
 }
 
-.footer{
+.footer {
     width: 100%;
     height: 100px;
     background-color: gray;
     clear: both;
 }
-.left-box {
-    width: 70%;
-    height: 200px;
-    background: cornflowerblue;
-    float: left;
-}
 
-.right-box{
-    width: 30%;
-    height: 200px;
-    background: coral;
-    overflow:hidden;
-    margin:0 auto;
-    float: left;
-}
-.header-box {
-    width: 100%;
-    height: 50px;
-    background: aquamarine;
-}
-.footer-box{
-    width: 100%;
-    height: 150px;
-    background-color: gray;
-    clear: both;
-}
-.profile-box{   
-    width: 10;    
-    height: 50px;
-    display: block;
-    margin-left: 10;
-    margin-right: auto;
-    border-radius: 70%;
-    overflow: hidden;
-    
-    float: left;
-}
-.left {
-    width: 20%;
-    height: 50px;
-    background: sandybrown;
-    float: left;
-    word-break:break-all;
-    vertical-align: top;
-}
-
-.right {
+.blog-content {
     width: 80%;
-    height: 50px;
-    background: black;
+    height: 200px;
     float: left;
-    vertical-align: top;
 }
-.image{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+
+.blog-img {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.blog-name {
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+   font-size: 16px;
+   text-decoration: none;
+}
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../profile.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    padding: 1px;
+}
+.main-title{
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
 }
